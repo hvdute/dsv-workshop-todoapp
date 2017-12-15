@@ -1,5 +1,8 @@
 import { TodoListStore } from './todo-list.js';
 
+// CSS loader
+import '../css/bootstrap.min.css';
+
 // initial render to screen
 TodoListStore.render();
 

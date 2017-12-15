@@ -1,9 +1,12 @@
 {
   "scripts": {
+    "start": "yarn build & serve",
     "build": "./node_modules/webpack/bin/webpack.js",
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --watch"
   },
   "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
   }

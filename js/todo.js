@@ -1,7 +1,9 @@
 import { CheckBox, TodoContent, DeleteButton } from './dom-utilities.js';
 
+// CSS Loader
+import '../css/main.css';
+
 // Todo model
-// (function(window) {
 function Todo({ id, content, isDone, mode = 'view', parentUpdater }) {
   this.state = {
     id: id || (Math.random().toString(36).slice(-10)),
@@ -58,6 +60,3 @@ Todo.prototype.render = function() {
 };
 
 export default Todo;
-  // register Todo model to global context
-  // window.Todo = Todo;
-// })(window);
