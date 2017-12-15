@@ -1,5 +1,5 @@
 // DOM Utilities for creating static elements
-// (function(window) {
+
 export function CheckBox(todoId, isDone, eventListener) {
   this.state = {
     todoId,
@@ -93,6 +93,4 @@ export function DeleteButton(todoId, deleteHandler) {
   this.render = function() {
     return button;
   }
-}
-
-// })(window);
+};

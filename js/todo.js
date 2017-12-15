@@ -1,4 +1,5 @@
 import { CheckBox, TodoContent, DeleteButton } from './dom-utilities.js';
+
 // Todo model
 // (function(window) {
 function Todo({ id, content, isDone, mode = 'view', parentUpdater }) {
